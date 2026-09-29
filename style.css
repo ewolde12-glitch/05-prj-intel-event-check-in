@@ -342,6 +342,52 @@ select {
   background-color: #fff7ed;
 }
 
+.attendee-list-section {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list-section h4 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.attendee-list {
+  max-height: 280px;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.attendee-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.attendee-name {
+  color: #334155;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.attendee-team {
+  color: #64748b;
+  font-size: 14px;
+  text-align: right;
+}
+
+.empty-attendee-list {
+  padding: 8px 4px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
 .team-name {
   font-size: 15px;
   font-weight: 500;
